@@ -1,3 +1,4 @@
+package Tasks.Week1;
 public class qn6 {
     public static void main(String[] args) {
         /*A well-formed Java program has a main method with { and } braces.
