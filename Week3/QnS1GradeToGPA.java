@@ -7,7 +7,7 @@ public class QnS1GradeToGPA {
         System.out.print("Enter student's grade: ");
         char grade = scanner.next().charAt(0);
         
-        double gpa;
+        double gpa =-1;
         switch (grade) {
             case 'A':
                 gpa = 4.0;
@@ -26,7 +26,7 @@ public class QnS1GradeToGPA {
                 break;
             default:
                 System.out.println("Invalid grade entered.");
-                return;
+                
         }
         System.out.println("Equivalent GPA: " + gpa);
         scanner.close();

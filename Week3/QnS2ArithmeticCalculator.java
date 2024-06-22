@@ -14,7 +14,7 @@ public class QnS2ArithmeticCalculator {
         System.out.print("Enter operator: ");
         char operator = scanner.next().charAt(0);
         
-        double result;
+        double result= 0;
         
         switch (operator) {
             case '+':
@@ -29,13 +29,13 @@ public class QnS2ArithmeticCalculator {
             case '/':
                 if (num2 == 0) {
                     System.out.println("Error: Division by zero is not allowed.");
-                    return;
+                    
                 }
                 result = num1 / num2;
                 break;
             default:
                 System.out.println("Invalid operator entered.");
-                return;
+                
         }
         
         System.out.println("Result: " + result);
